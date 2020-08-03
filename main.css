@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+    background: #343447;
+    padding: 1px;
+}
+
+#button{
+    background-color: darkorange;
+}
+
+#Icon{
+    padding-top: 100px;
+    padding-left: 5px;
+   
+}
+
+#name{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+color:black;
+font-size: 72px;
+}
+
+#intro{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 54px;
+
+color:black;
+}
+
+#grey{
+    color:black ;
+}
+
+#white{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 54px;
+color: #E5E5E5
+}
+
+#white-s{
+    color: #E5E5E5;
+}
+
+#hero2{
+    background-color:#2D2D3D;
+}
+
+#contact{
+    color: #E5E5E5;
+}
+
+
+#heading{
+    padding: 10px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: #E5E5E5;
+    font-size: 64px;
+}
+
+
+
+
+
+
+
+.animess{
+    color: #ffffff;
+    background: linear-gradient(-45deg,#30cfd0 0%, #9face6 100% );
+    background-size: 400%,400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0%{
+        background-position:  0 50%;;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0%,50% ;
+    }
+}
+
+
+
+
+
+
+
+/*Animate*/
+
+ span.animated {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    height: 4px;
+    width: 4px;
+    border-radius: 2px;
+    background: #fff;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+  
+   span::before,
+   span::after {
+    position: absolute;
+    top: -23px;
+    content: "";
+    height: 30px;
+    width: 4px;
+    border-radius: 2px;
+    background: #fff;
+  }
+  
+   span::before {
+    left: -10px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform:    rotate(-45deg);
+    -ms-transform:     rotate(-45deg);
+    -o-transform:      rotate(-45deg);
+    transform:         rotate(-45deg);
+  }
+  
+   span::after {
+    right: -10px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform:    rotate(45deg);
+    -ms-transform:     rotate(45deg);
+    -o-transform:      rotate(45deg);
+    transform:         rotate(45deg);
+  }
+  
